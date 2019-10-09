@@ -1,0 +1,19 @@
+{
+  "name": "puhelinluettelo",
+  "version": "1.0.0",
+  "description": "puhelinluettelo",
+  "main": "3001",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TuesdayNinja/Mooc-FullStack2019-Osa3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuesdayNinja/Mooc-FullStack2019-Osa3/issues"
+  },
+  "homepage": "https://github.com/TuesdayNinja/Mooc-FullStack2019-Osa3#readme"
+}
