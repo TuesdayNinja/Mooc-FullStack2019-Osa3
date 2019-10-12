@@ -2,8 +2,10 @@
   "name": "puhelinluettelo",
   "version": "1.0.0",
   "description": "puhelinluettelo",
-  "main": "3001",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "npm start"
   },
   "repository": {
@@ -11,9 +13,16 @@
     "url": "git+ssh://git@github.com/TuesdayNinja/Mooc-FullStack2019-Osa3.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TuesdayNinja/Mooc-FullStack2019-Osa3/issues"
   },
-  "homepage": "https://github.com/TuesdayNinja/Mooc-FullStack2019-Osa3#readme"
+  "homepage": "https://github.com/TuesdayNinja/Mooc-FullStack2019-Osa3#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
 }
